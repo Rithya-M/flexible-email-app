@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.emailapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <permission
+11-->[androidx.core:core:1.15.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\9ed5b354f1ff6f6ab92256cb41ef32e3\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.emailapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.15.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\9ed5b354f1ff6f6ab92256cb41ef32e3\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.15.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\9ed5b354f1ff6f6ab92256cb41ef32e3\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.emailapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.15.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\9ed5b354f1ff6f6ab92256cb41ef32e3\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.15.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\9ed5b354f1ff6f6ab92256cb41ef32e3\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:5:5-45:19
+18        android:allowBackup="true"
+18-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.15.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\9ed5b354f1ff6f6ab92256cb41ef32e3\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="true"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.EmailApplication" >
+28-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:12:9-54
+29        <activity
+29-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:14:9-18:61
+30            android:name="com.example.emailapplication.RegisterActivity"
+30-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:15:13-45
+31            android:exported="false"
+31-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:16:13-37
+32            android:label="@string/title_activity_register"
+32-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:17:13-60
+33            android:theme="@style/Theme.EmailApplication" />
+33-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:18:13-58
+34        <activity
+34-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:19:9-23:61
+35            android:name="com.example.emailapplication.MainActivity"
+35-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:20:13-41
+36            android:exported="false"
+36-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:21:13-37
+37            android:label="MainActivity"
+37-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:22:13-41
+38            android:theme="@style/Theme.EmailApplication" />
+38-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:23:13-58
+39        <activity
+39-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:24:9-28:61
+40            android:name="com.example.emailapplication.ViewMailActivity"
+40-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:25:13-45
+41            android:exported="false"
+41-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:26:13-37
+42            android:label="@string/title_activity_view_mail"
+42-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:27:13-61
+43            android:theme="@style/Theme.EmailApplication" />
+43-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:28:13-58
+44        <activity
+44-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:29:9-33:61
+45            android:name="com.example.emailapplication.SendMailActivity"
+45-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:30:13-45
+46            android:exported="false"
+46-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:31:13-37
+47            android:label="@string/title_activity_send_mail"
+47-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:32:13-61
+48            android:theme="@style/Theme.EmailApplication" />
+48-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:33:13-58
+49        <activity
+49-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:34:9-44:20
+50            android:name="com.example.emailapplication.LoginActivity"
+50-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:35:13-42
+51            android:exported="true"
+51-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:36:13-36
+52            android:label="@string/app_name"
+52-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:37:13-45
+53            android:theme="@style/Theme.EmailApplication" >
+53-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:38:13-58
+54            <intent-filter>
+54-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:39:13-43:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:40:17-69
+55-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:40:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:42:17-77
+57-->G:\AdaptiveEmailApp\app\src\main\AndroidManifest.xml:42:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <service
+61-->[androidx.room:room-runtime:2.6.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\3066fd8ca4fe3ac3279325f088fe5b4e\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+62            android:name="androidx.room.MultiInstanceInvalidationService"
+62-->[androidx.room:room-runtime:2.6.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\3066fd8ca4fe3ac3279325f088fe5b4e\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+63            android:directBootAware="true"
+63-->[androidx.room:room-runtime:2.6.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\3066fd8ca4fe3ac3279325f088fe5b4e\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+64            android:exported="false" />
+64-->[androidx.room:room-runtime:2.6.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\3066fd8ca4fe3ac3279325f088fe5b4e\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+65
+66        <activity
+66-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\dbffbe381b23e78d609d48ca4a721680\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
+67            android:name="androidx.activity.ComponentActivity"
+67-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\dbffbe381b23e78d609d48ca4a721680\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
+68            android:exported="true" />
+68-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\dbffbe381b23e78d609d48ca4a721680\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
+69        <activity
+69-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\5673ce17f7b3d3462ea3a1e8082ed8a1\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+70            android:name="androidx.compose.ui.tooling.PreviewActivity"
+70-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\5673ce17f7b3d3462ea3a1e8082ed8a1\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+71            android:exported="true" />
+71-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\5673ce17f7b3d3462ea3a1e8082ed8a1\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+72
+73        <provider
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\925ae3c57285c8a8bc163bb17b6c2372\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\925ae3c57285c8a8bc163bb17b6c2372\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+75            android:authorities="com.example.emailapplication.androidx-startup"
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\925ae3c57285c8a8bc163bb17b6c2372\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+76            android:exported="false" >
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\925ae3c57285c8a8bc163bb17b6c2372\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+77            <meta-data
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\925ae3c57285c8a8bc163bb17b6c2372\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\925ae3c57285c8a8bc163bb17b6c2372\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+79                android:value="androidx.startup" />
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\925ae3c57285c8a8bc163bb17b6c2372\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\89eb52acc9cfc3df121a9743c180a9a2\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+81-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\89eb52acc9cfc3df121a9743c180a9a2\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+82                android:value="androidx.startup" />
+82-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\89eb52acc9cfc3df121a9743c180a9a2\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\SYSTEM-01\.gradle\caches\8.9\transforms\8eb7ed94c15ab7977e13c1a30ed82272\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>
